@@ -4,5 +4,7 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+  instance:
+    hostname: localhost
   server:
     waitTimeInMsWhenSyncEmpty: 0
